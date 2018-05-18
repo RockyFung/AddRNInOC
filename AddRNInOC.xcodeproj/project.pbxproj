@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C5024D620AE70F20010C4CA /* RNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C5024D520AE70F20010C4CA /* RNRootViewController.m */; };
 		5C92960520ADB6B100F783F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C92960420ADB6B100F783F5 /* AppDelegate.m */; };
 		5C92960820ADB6B100F783F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C92960720ADB6B100F783F5 /* ViewController.m */; };
 		5C92960B20ADB6B100F783F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C92960920ADB6B100F783F5 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		5C92961320ADB6B300F783F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C92961220ADB6B300F783F5 /* main.m */; };
 		5C92961D20ADB6B300F783F5 /* AddRNInOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C92961C20ADB6B300F783F5 /* AddRNInOCTests.m */; };
 		5C92962820ADB6B300F783F5 /* AddRNInOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C92962720ADB6B300F783F5 /* AddRNInOCUITests.m */; };
+		B5027C03D18A0B3D2EBB232A /* libPods-AddRNInOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F69DED0154EADF2A76F204 /* libPods-AddRNInOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2058546BEAB7FC624C0958BD /* Pods-AddRNInOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddRNInOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-AddRNInOC/Pods-AddRNInOC.release.xcconfig"; sourceTree = "<group>"; };
+		5C5024D420AE70F20010C4CA /* RNRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRootViewController.h; sourceTree = "<group>"; };
+		5C5024D520AE70F20010C4CA /* RNRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRootViewController.m; sourceTree = "<group>"; };
 		5C92960020ADB6B100F783F5 /* AddRNInOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddRNInOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C92960320ADB6B100F783F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5C92960420ADB6B100F783F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		5C92962320ADB6B300F783F5 /* AddRNInOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddRNInOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C92962720ADB6B300F783F5 /* AddRNInOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddRNInOCUITests.m; sourceTree = "<group>"; };
 		5C92962920ADB6B300F783F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FC22E0F53018C860C84DA8 /* Pods-AddRNInOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddRNInOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AddRNInOC/Pods-AddRNInOC.debug.xcconfig"; sourceTree = "<group>"; };
+		C02EB11535FDEBBCDACFDDF0 /* libPods-AddRNInOCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddRNInOCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F69DED0154EADF2A76F204 /* libPods-AddRNInOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddRNInOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA405F866628D31E721B515 /* libPods-AddRNInOCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AddRNInOCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5027C03D18A0B3D2EBB232A /* libPods-AddRNInOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +95,8 @@
 				5C92961B20ADB6B300F783F5 /* AddRNInOCTests */,
 				5C92962620ADB6B300F783F5 /* AddRNInOCUITests */,
 				5C92960120ADB6B100F783F5 /* Products */,
+				87DA65F32CFF5BA1958D7B8D /* Pods */,
+				6EA6E6AFE4FB35CEF34C5CA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +117,8 @@
 				5C92960420ADB6B100F783F5 /* AppDelegate.m */,
 				5C92960620ADB6B100F783F5 /* ViewController.h */,
 				5C92960720ADB6B100F783F5 /* ViewController.m */,
+				5C5024D420AE70F20010C4CA /* RNRootViewController.h */,
+				5C5024D520AE70F20010C4CA /* RNRootViewController.m */,
 				5C92960920ADB6B100F783F5 /* Main.storyboard */,
 				5C92960C20ADB6B200F783F5 /* Assets.xcassets */,
 				5C92960E20ADB6B200F783F5 /* LaunchScreen.storyboard */,
@@ -132,6 +146,25 @@
 			path = AddRNInOCUITests;
 			sourceTree = "<group>";
 		};
+		6EA6E6AFE4FB35CEF34C5CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6F69DED0154EADF2A76F204 /* libPods-AddRNInOC.a */,
+				C02EB11535FDEBBCDACFDDF0 /* libPods-AddRNInOCTests.a */,
+				DFA405F866628D31E721B515 /* libPods-AddRNInOCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87DA65F32CFF5BA1958D7B8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC22E0F53018C860C84DA8 /* Pods-AddRNInOC.debug.xcconfig */,
+				2058546BEAB7FC624C0958BD /* Pods-AddRNInOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C92962C20ADB6B300F783F5 /* Build configuration list for PBXNativeTarget "AddRNInOC" */;
 			buildPhases = (
+				305BD05A45E8951FB54D609B /* [CP] Check Pods Manifest.lock */,
 				5C9295FC20ADB6B100F783F5 /* Sources */,
 				5C9295FD20ADB6B100F783F5 /* Frameworks */,
 				5C9295FE20ADB6B100F783F5 /* Resources */,
@@ -257,11 +291,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		305BD05A45E8951FB54D609B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddRNInOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C9295FC20ADB6B100F783F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5024D620AE70F20010C4CA /* RNRootViewController.m in Sources */,
 				5C92960820ADB6B100F783F5 /* ViewController.m in Sources */,
 				5C92961320ADB6B300F783F5 /* main.m in Sources */,
 				5C92960520ADB6B100F783F5 /* AppDelegate.m in Sources */,
@@ -431,6 +487,7 @@
 		};
 		5C92962D20ADB6B300F783F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FC22E0F53018C860C84DA8 /* Pods-AddRNInOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +504,7 @@
 		};
 		5C92962E20ADB6B300F783F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2058546BEAB7FC624C0958BD /* Pods-AddRNInOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
